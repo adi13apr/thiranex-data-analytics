@@ -1,14 +1,16 @@
 # Data Analytics Internship Projects – Thiranex EduTech
 
 Projects completed during my remote **Data Analytics Internship at Thiranex EduTech LLP** (Nov–Dec 2026).
-All three tasks use the same retail sales dataset, so together they tell one end-to-end story:
-**describe the business → understand the customers → forecast the future.**
+All four tasks use the same retail sales dataset, so together they tell one end-to-end story:
+**clean the data → describe the business → understand the customers → forecast the future.**
 
 | # | Project | Tools | Status |
 |---|---------|-------|--------|
 | 1 | [Sales & Revenue Analysis Dashboard](Task1-Sales-Dashboard) | Excel | ✅ Done |
 | 2 | [Customer Segmentation (RFM + K-Means)](Task2-Customer-Segmentation) | Python, pandas, scikit-learn, seaborn | ✅ Done |
 | 3 | [Predictive Analytics – Sales Forecasting](Task3-Sales-Forecasting) | Python, scikit-learn, SciPy | ✅ Done |
+| 4 | [Data Cleaning & Reporting Automation](Task4-Data-Cleaning-Automation) | Python, pandas, openpyxl | ✅ Done |
+
 ## Dataset
 `retail_sales_data.csv` has **5,947 order lines** from **662 customers**, covering Jan 2023 – Oct 2026 (16 columns: order, customer, segment, city/state/region, category, sub-category, product, quantity, unit price, discount, sales, profit).
 It is a synthetic dataset modelled on the classic *Superstore* structure and adapted to Indian regions, with realistic growth, festive seasonality and discount effects.
@@ -78,13 +80,6 @@ Groups customers by buying behaviour so the business can target each group with 
 
 ---
 
-## How to run
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
-Clone the repo and open the notebooks from inside their task folders. They read `../retail_sales_data.csv`.
-
----
 ## Task 3 – Predictive Analytics: Sales Forecasting
 
 Forecasts monthly sales for the next 12 months to support inventory and campaign planning.
@@ -104,5 +99,43 @@ Forecasts monthly sales for the next 12 months to support inventory and campaign
 **Forecast (Nov 2026 – Oct 2027):** **₹1.27 Cr (+7.6%)**, peaking in Oct–Nov. Technology is expected to grow fastest (+9.3%).
 
 **Recommendations:** build inventory by September for the festive peak, run promotions in slow months (Feb, May), and retrain the model monthly.
+
+**Output:** `sales_forecast_next_12_months.csv` contains the monthly forecast with an approximate 95% range.
+
+---
+
+## Task 4 – Data Cleaning & Reporting Automation
+
+A reusable Python pipeline that turns **messy monthly sales exports** into clean, validated data and a **ready-to-share report**, with one command.
+📄 **[View the generated report](Task4-Data-Cleaning-Automation/output/REPORT.md)** · 📁 **[Project details](Task4-Data-Cleaning-Automation)**
+
+**Problems handled automatically** (10 monthly files, 1,622 raw rows)
+- Different column names between files, dates in three formats, impossible dates like `31/02/2026`
+- Numbers stored as text (`₹8,528.40`, `10%`) and inconsistent labels (`S`, `Tech`, `Corp.`, `MUMBAI`)
+- Missing values, duplicate rows, negative quantities and prices with extra zeros
+
+**How it works**
+- **Load → Clean → De-duplicate → Fix invalid values → Recover missing values → Validate → Report**
+- Missing values are **recovered from other columns** instead of dropped (e.g. Region from State, Sales from Qty × Price × (1 − Discount))
+- **8 validation checks** run automatically, and the pipeline stops if any check fails
+- Every fix is recorded in a **data-quality log**
+
+**Results**
+- **1,622 raw rows → 1,561 clean rows** with about **2,700 fixes** applied automatically; all validation checks pass
+- Generates `REPORT.md` (KPIs, charts, auto-written highlights, before → after examples), a 9-sheet **Excel report** and a clean CSV
+- **To process a new month:** drop the file into `raw_data/` and re-run the script
+
+---
+
+## How to run
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn scipy openpyxl
+```
+- **Task 1:** open the `.xlsx` file in Excel
+- **Tasks 2 & 3:** open the notebooks from inside their task folders (they read `../retail_sales_data.csv`)
+- **Task 4:** run `python clean_and_report.py` inside the `Task4-Data-Cleaning-Automation` folder
+
+---
+
 ## Author
 **Aditya Chauhan** – B.Tech CSE, IIIT Kota
