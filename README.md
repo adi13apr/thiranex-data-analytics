@@ -7,7 +7,7 @@ All three tasks use the same retail sales dataset, so together they tell one end
 | # | Project | Tools | Status |
 |---|---------|-------|--------|
 | 1 | [Sales & Revenue Analysis Dashboard](Task1-Sales-Dashboard) | Excel | ✅ Done |
-| 2 | Customer Segmentation (RFM + K-Means) | Python, pandas, scikit-learn | 🔄 In progress |
+| 2 | [Customer Segmentation (RFM + K-Means)](Task2-Customer-Segmentation) | Python, pandas, scikit-learn, seaborn | ✅ Done |
 | 3 | Predictive Analytics – Sales Forecasting | Python, statsmodels | 🔄 In progress |
 
 ## Dataset
@@ -44,6 +44,46 @@ An interactive Excel dashboard for tracking KPIs and finding what drives revenue
 **Recommendations:** stock up and plan campaigns ahead of Oct–Nov, review pricing on Tables and Bookcases, and cap discounts, especially in the East region.
 
 ![Filtered view](Task1-Sales-Dashboard/dashboard_filtered.png)
+
+---
+
+## Task 2 – Customer Segmentation (RFM + K-Means)
+
+Groups customers by buying behaviour so the business can target each group with the right action.
+📓 **[Open the notebook](Task2-Customer-Segmentation/Customer_Segmentation.ipynb)**, which contains all code, charts and analysis.
+
+**Approach**
+1. Built one row per customer with **RFM** features: **R**ecency (days since last order), **F**requency (orders), **M**onetary (total spend)
+2. Applied `log1p` to fix heavy right skew, then `StandardScaler` so each feature carries equal weight
+3. Chose **k = 4** using the **elbow method** and **silhouette score** (0.368, the best value after k = 2, which is too coarse to act on)
+4. Clustered with **K-Means** and automatically mapped clusters to business segment names
+5. Profiled each segment by value, category preference, customer type, region and discount behaviour
+
+**Segments found**
+
+| Segment | Customers | Revenue share | Profile |
+|---|---|---|---|
+| 🟢 **Champions** | 25.7% | **65.0%** | Order often (median 17 orders), bought recently (~26 days ago), most Technology-heavy |
+| 🟠 **At Risk** | 28.7% | 25.9% | High past value (₹93.5 L) and highest order value, but no order in a median of **330 days** |
+| 🔵 **New / Promising** | 16.5% | 5.2% | Bought recently (~44 days ago) but only ~3 orders; prefer Furniture and Office Supplies |
+| ⚪ **Lost / Hibernating** | 29.2% | 3.9% | Mostly one-time buyers, inactive for a median of **621 days** |
+
+**Key insights**
+- **A quarter of customers bring in two-thirds of revenue**, so retaining Champions is critical
+- **At Risk customers are the biggest opportunity**: valuable buyers who are slipping away
+- **Discount use is almost the same in every segment (9–10%)**, so loyalty comes from purchase behaviour, not discounts
+
+**Recommendations:** a VIP or loyalty programme for Champions, personalised win-back campaigns for At Risk customers, second-purchase incentives for New customers, and only low-cost automated outreach for Lost customers.
+
+**Output:** `customer_segments.csv` contains all 662 customers with their RFM values and assigned segment.
+
+---
+
+## How to run
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+Clone the repo and open the notebooks from inside their task folders. They read `../retail_sales_data.csv`.
 
 ---
 
