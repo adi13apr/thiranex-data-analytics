@@ -1,0 +1,132 @@
+Order ID,OrderDate,Customer ID,CustomerName,Segment,City,State,Region,Category,Sub Category,Product,Quantity,Unit Price,Discount,Sales,Profit
+ORD-104603,2026-02-25,CUS-0428,Saanvi Bose,Corporate,Coimbatore,Tamil Nadu,South,Technology,Accessories,Wireless Mouse,5.0,873.0,0%,4365.0,1710.49
+ORD-104622,2026-02-24,CUS-0629,Nisha Chauhan,Consumer,Ahmedabad,Gujarat,WEST,Furniture,Chairs,Ergonomic Office Chair,2.0,8478.0,0%,,5515.81
+ORD-104606,"Feb 11, 2026",CUS-0505,Meera Singh,Consumer,Ahmedabad,Gujarat,WEST,Furniture,Furnishings,Wall Clock,4.0,947.0,0.15,3219.8,1004.22
+ORD-104520,28/02/2026,CUS-0392,Saanvi Pillai,Corporate,Chandigarh,Chandigarh,North,Office Supplies,Envelopes,Envelope Pack,4.0,230.0,0.15,782.0,284.32
+ORD-104586,2026-02-14,CUS-0477,Arjun Shah,Consumer,Ahmedabad,Gujarat,WEST,Furniture,Furnishings,Wall Clock,3.0,1006.0,15%,2565.3,793.75
+ORD-104626,2026-02-17,CUS-0067,Arjun Malhotra,Consumer,Pune,Maharashtra,West,Technology,Computers,24-inch Monitor,1.0,11718.0,0.1,"₹10,546.20",1602.73
+ORD-104557,22/02/2026,CUS-0601,Nisha Pillai,Corporate,Indore,Madhya Pradesh,w,OfficeSupplies,Binders,Presentation Folder,6.0,281.0,0.0,1686.0,651.74
+ORD-104587,13/02/2026,CUS-0388,Ishaan Mehta,Consumer,Guwahati,Assam,East,Furniture,Furnishings,Cushion Set,1.0,1205.0,0.3,843.5,175.82
+ORD-104633,2026-02-14,CUS-0219,Ishita Kulkarni,Corporate,Kolkata,West Bengal,East,Office Supplies,Paper,A4 Paper Ream,11.0,331.0,0.2,"₹2,912.80",877.79
+ORD-104589,"Feb 27, 2026",CUS-0026,Diya Kapoor,Consumer,kota,Rajasthan,North,office-supplies,Paper,Sticky Notes Pack,7.0,153.0,10%,₹963.90,444.87
+ ORD-104619 ,2026-02-10,CUS-0539,,Corporate,New Delhi,Delhi,North,furniture,Tables,Folding Table,1.0,4148.0,0.3,2903.6,-776.4
+ORD-104641,"Feb 12, 2026",CUS-0185,Vivaan Pillai,Consumer,KOCHI,Kerala,South,Technology,Accessories,Wireless Mouse,4.0,883.0,,3178.8,1034.34
+ORD-104612,2026-02-18,CUS-0113,Amit Pillai,corporate,Surat,Gujarat,West,Office Supplies,Art,Colour Pencil Kit,3.0,516.0,0%,1548.0,731.77
+ORD-104582,2026-02-21,CUS-0097,Nikhil Bose,Consumer,Surat,Gujarat,West,Technology,Machines,Document Scanner,2.0,10372.0,0.0,"₹20,744.00",4261.99
+ORD-104540,2026-02-26,CUS-0539,Ananya Shah,Corporate,New Delhi,Delhi,North,Furniture,Furnishings,Wall Clock,6.0,97600.0,10%,5270.4,1929.34
+ORD-104645,2026-02-27,CUS-0450,Ananya Banerjee,Home Office,Bengaluru,Karnataka,South,Furniture,Bookcases,Corner Bookshelf,2.0,5846.0,0.2,9353.6,536.99
+ORD-104551,2026-02-07,CUS-0618,Priya Singh,Consumer,PUNE,Maharashtra,w,Technology,Machines,Laser Printer,1.0,16868.0,0.0,"₹16,868.00",3732.34
+ORD-104602,15/02/2026,CUS-0401,Ananya Singh,Corporate,  Surat ,Gujarat,w,Furniture,Chairs,Ergonomic Office Chair,2.0,8473.0,0.2,13556.8,1622.37
+ORD-104536,2026-02-02,CUS-0546,Aditya Bose,Consumer,Mumbai,Maharashtra,West,FURNITURE,Furnishings,Photo Frame Set,8.0,704.0,0.1,5068.8,2111.85
+ORD-104539,17/02/2026,CUS-0296,Nisha Das,Consumer,Guwahati,Assam,East,Office supplies,Storage,File Cabinet,1.0,6885.0,0.2,5508.0,127.5
+ORD-104554,15/02/2026,CUS-0664,Ishita Yadav,Consumer,Kota,Rajasthan,NORTH ,Office Supplies,Art,Colour Pencil Kit,2.0,502.0,0.1,903.6,300.5
+ORD-104562,13/02/2026,CUS-0245,Rohan Yadav,Corporate,Kochi,Kerala,south ,Office Supplies,Appliances,Electric Kettle,7.0,1875.0,0.1,"₹11,812.50",2419.67
+ORD-104564,2026-02-14,CUS-0569,Aadhya Banerjee,Consumer,Surat,Gujarat,West,office-supplies,Fasteners,Heavy Duty Stapler,6.0,658.0,20%,3158.4,586.51
+ORD-104530,2026-02-11,CUS-0496,Aadhya Iyer,corporate,Ahmedabad,Gujarat,West,Office Supplies,Storage,File Cabinet,1.0,7151.0,0%,7151.0,1697.35
+ORD-104574,2026-02-20,CUS-0109,Karan Bose,Consumer,Jaipur,Rajasthan,North,Furniture,Furnishings,Curtain Pair,4.0,1455.0,0.1,"₹5,238.00",1791.2
+ORD-104635,2026-02-26,CUS-0409,Arjun Mehta,Corporate,Agra,Uttar Pradesh,North,Office Supplies,Supplies,Scissors Pack,8.0,269.0,0.2,"₹1,721.60",142.18
+ORD-104572,2026-02-20,CUS-0365,Diya Jain,Corporate,Coimbatore,Tamil Nadu,South,Furniture,Bookcases,5-Shelf Bookcase,1.0,9307.0,0.45,"₹5,118.85",-2650.79
+ORD-104604,05/02/2026,CUS-0115,Priya Gupta,Home Office,New Delhi,Delhi,North,Furniture,Chairs,Mesh Task Chair,3.0,5201.0,0.0,15603.0,4547.31
+ORD-104591,2026-02-01,CUS-0374,Pooja Patel,Home Office,Pune,Maharashtra,w,Office Supplies,Binders,Presentation Folder,4.0,264.0,0%,1056.0,540.34
+ORD-104639,2026-02-15,CUS-0205,Vivaan Yadav,Consumer,Chandigarh,Chandigarh, N,Furniture,Chairs,Ergonomic Office Chair,2.0,8683.0,0.2,"₹13,892.80",2045.39
+ORD-104630,2026-02-18,CUS-0539,Ananya Shah,corporate,New Delhi,Delhi, N,Furniture,Furnishings,Cushion Set,5.0,1230.0,0.0,6150.0,2740.29
+ORD-104566,26/02/2026,CUS-0453,Kavya Saxena,Corporate,Chennai,Tamil Nadu,South,Furniture,Furnishings,Desk Lamp,3.0,1809.0,0.0,"₹5,427.00",2384.02
+ORD-104628,2026-02-26,CUS-0088,Shreya Jain,Corp.,Ahmedabad,Gujarat,WEST,Furniture,Furnishings,Area Rug,5.0,3579.0,0.0,17895.0,6231.83
+ORD-104571,2026-02-15,CUS-0450,Ananya Banerjee,Home Office,Bengaluru,Karnataka,South,Office Supplies,Binders,Ring Binder Set,3.0,455.0,0.1,1228.5,451.71
+ORD-104601,2026-02-21,CUS-0230,Nikhil Patel,Consumer,New Delhi,Delhi,North,FURNITURE,Chairs,Ergonomic Office Chair,2.0,8482.0,0.1,15267.6,3655.54
+ORD-104613,2026-02-15,CUS-0246,Amit Mehta,Corporate,Kolkata,West Bengal,east,Office Supplies,Storage,File Cabinet,1.0,7212.0,0.0,"₹7,212.00",1675.37
+ORD-104527,21/02/2026,CUS-0503,Aditya Gupta,HomeOffice,Kolkata,West Bengal,East,furniture,Chairs,Ergonomic Office Chair,,7639.0,0.1,"₹6,875.10",1587.69
+ORD-104615,21/02/2026,CUS-0660,Reyansh Mishra,Consumer,Mumbai,Maharashtra,West,Furniture,Furnishings,Cushion Set,3.0,1194.0,0.15,3044.7,919.13
+ORD-104567,2026-02-13,CUS-0014,Saanvi Singh,Corporate,KOCHI,Kerala,South,Technology,Accessories,USB Hub,6.0,1093.0,10%,"₹5,902.20",2013.36
+ORD-104573,18/02/2026,CUS-0644,Diya Verma,Corporate,Chandigarh,Chandigarh,North,office-supplies,Art,Marker Set,2.0,404.0,0.0,808.0,299.39
+ORD-104583,2026-02-24,CUS-0123,Rohan Jain,Corp.,Kota,Rajasthan,North,Office Supplies,Binders,Presentation Folder,3.0,260.0,0%,₹780.00,
+ORD-104545,2026-02-14,CUS-0027,Amit Chauhan,Consumer,Ahmedabad,Gujarat,,Office supplies,Binders,Presentation Folder,4.0,275.0,0.1,990.0,443.32
+ORD-104584,2026-02-25,CUS-0495,Amit Das,Consumer,Coimbatore,Tamil Nadu,South,Office Supplies,Paper,A4 Paper Ream,4.0,334.0,5%,1269.2,513.45
+ORD-104621,2026-02-16,CUS-0128,,Consumer,Jaipur,Rajasthan, N,Office Supplies,Paper,A4 Paper Ream,3.0,316.0,15%,805.8,296.92
+ ORD-104537 ,2026-02-24,CUS-0522,Akash Bose,Consumer,Ahmedabad,Gujarat,WEST,Furniture,Chairs,Mesh Task Chair,3.0,5158.0,0.15,"₹13,152.90",2561.9
+ORD-104611,25/02/2026,CUS-0005,Varun Mishra,Corporate,Kota,Rajasthan, N,Technology,Machines,Laser Printer,2.0,16273.0,0.0,32546.0,7747.33
+ORD-104575,2026-02-18,CUS-0059,Anjali Joshi,Corporate,jaipur,Rajasthan,North,Office Supplies,Art,Colour Pencil Kit,3.0,508.0,0%,1524.0,560.4
+ ORD-104542 ,2026-02-27,CUS-0661,Amit Saxena,Consumer,Agra,Uttar Pradesh,North,Office Supplies,Storage,File Cabinet,2.0,742300.0,0.0,"₹14,846.00",2928.93
+ORD-104568,04/02/2026,CUS-0502,Deepak Gupta,Consumer,Bhubaneswar,Odisha,East,Technology,Phones,Cordless Phone,3.0,2853.0,0.1,7703.1,1576.98
+ ORD-104599 ,11/02/2026,CUS-0301,Swati Agarwal,Corporate,Chennai,Tamil Nadu,South,Office Supplies,Art,Colour Pencil Kit,5.0,525.0,0.0,2625.0,949.42
+ORD-104631,"Feb 10, 2026",CUS-0715,Ishaan Agarwal,Home Office,Kochi,Kerala,South,Furniture,Furnishings,Desk Lamp,1.0,1822.0,0.15,"₹1,548.70",523.96
+ORD-104526,2026-02-23,CUS-0457,Gaurav Chauhan,Corporate,Kolkata,West Bengal,East,Technology,Phones,Cordless Phone,5.0,2718.0,0%,13590.0,3868.74
+ORD-104592,"Feb 12, 2026",CUS-0034,Akash Chauhan,Corporate,Indore,Madhya Pradesh,West,Office Supplies,Paper,Sticky Notes Pack,7.0,158.0,0%,1106.0,534.89
+ORD-104609,07/02/2026,CUS-0519,Aadhya Joshi,Corporate,  New Delhi ,Delhi,North,Office Supplies,Envelopes,Envelope Pack,1.0,216.0,0.1,₹194.40,77.14
+ORD-104608,2026-02-01,CUS-0034,Akash Chauhan,Corporate,Indore,Madhya Pradesh,West,Office Supplies,Binders,Presentation Folder,11.0,277.0,0.05,2894.65,1088.32
+ORD-104636,2026-02-09,CUS-0409,Arjun Mehta,Corporate,Agra,Uttar Pradesh,North,Office Supplies,Binders,Ring Binder Set,6.0,457.0,0.0,2742.0,1218.75
+ORD-104521,2026-02-12,CUS-0394,Swati Saxena,Consumer,Hyderabad,Telangana,South,Furniture,Furnishings,Cushion Set,3.0,1189.0,0.2,2853.6,949.79
+ORD-104523,08/02/2026,CUS-0509,,Consumer,Ahmedabad,Gujarat,WEST,Furniture,Bookcases,5-Shelf Bookcase,2.0,9801.0,0.0,19602.0,2614.18
+ORD-104616,12/02/2026,CUS-0374,Pooja Patel,Home Office,  Pune ,Maharashtra,West,Office Supplies,Art,Marker Set,4.0,389.0,0.1,"₹1,400.40",512.68
+ORD-104610,2026-02-28,CUS-0226,Swati Chauhan,consumer,  Kolkata ,West Bengal,East,Furniture,Furnishings,Area Rug,1.0,3464.0,0.3,2424.8,303.11
+ORD-104552,2026-02-23,CUS-0532,Nikhil Mehta,Consumer,Chennai,Tamil Nadu,South,Office Supplies,Storage,Storage Box,2.0,1083.0,0.1,1949.4,402.36
+ORD-104644,21/02/2026,CUS-0726,Vivaan Joshi,Consumer,Chandigarh,Chandigarh,North,Furniture,Furnishings,Area Rug,1.0,3729.0,0.05,3542.55,1322.69
+ORD-104618,2026-02-12,CUS-0097,,Consumer,Surat,Gujarat,West,Office Supplies,Paper,A4 Paper Ream,2.0,319.0,0%,₹638.00,254.78
+ORD-104535,2026-02-17,CUS-0089,Reyansh Mehta,consumer,Lucknow,Uttar Pradesh,North,furniture,Furnishings,Cushion Set,1.0,1185.0,0.2,₹948.00,296.18
+ORD-104546,2026-02-26,CUS-0630,Ishita Mehta,Consumer,BENGALURU,Karnataka,South,Furniture,Tables,Folding Table,4.0,4298.0,15%,"₹14,613.20",-784.56
+ORD-104629,2026-02-22,CUS-0045,Varun Sharma,Consumer,  Bengaluru ,Karnataka,South,Office Supplies,Appliances,Electric Kettle,,1924.0,0.1,"₹3,463.20",646.6
+ORD-104620,2026-02-26,CUS-0089,Reyansh Mehta,Consumer,Lucknow,Uttar Pradesh, N,Office Supplies,Art,Colour Pencil Kit,3.0,514.0,0.05,1464.9,505.48
+ORD-104607,2026-02-27,CUS-0088,Shreya Jain,Corporate,Ahmedabad,Gujarat,West,Technology,Computers,Laptop,2.0,55054.0,0.15,"₹93,591.80",6353.12
+ORD-104538,2026-02-07,CUS-0587,Varun Patel,Consumer,Jaipur,Rajasthan,North,Office Supplies,Labels,Label Maker,4.0,2645.0,0.15,8993.0,3471.56
+ORD-104624,2026-02-12,CUS-0109,Karan Bose,Consumer,jaipur,Rajasthan,North,Office Supplies,Appliances,Air Purifier,1.0,11869.0,10%,"₹10,682.10",1877.39
+ORD-104565,2026-02-14,CUS-0246,Amit Mehta,Corporate,Kolkata,West Bengal,East,Furniture,Furnishings,Desk Lamp,4.0,1851.0,0.15,6293.4,1766.02
+ORD-104570,09/02/2026,CUS-0607,Gaurav Kulkarni,Corporate,Guwahati,Assam,East,Office Supplies,Supplies,Scissors Pack,5.0,301.0,0.3,"₹1,053.50",-64.93
+ORD-104532,13/02/2026,CUS-0147,Aadhya Iyer,Consumer,Indore,Madhya Pradesh,West,Technology,Accessories,HD Webcam,3.0,2423.0,0.1,6542.1,1747.86
+ORD-104627,08/02/2026,CUS-0447,Vikram Reddy,Consumer,Kolkata,West Bengal,East,Office Supplies,Paper,A4 Paper Ream,4.0,332.0,0.1,1195.2,453.98
+ORD-104578,24/02/2026,CUS-0539,Ananya Shah,corporate,New Delhi,Delhi,North,Office Supplies,Fasteners,Heavy Duty Stapler,7.0,636.0,0.2,"₹3,561.60",702.65
+ORD-104561,2026-02-19,CUS-0364,Nisha Yadav,Corp.,Agra,Uttar Pradesh,North,Office Supplies,Paper,A4 Paper Ream,9.0,306.0,0.0,2754.0,1282.81
+ORD-104640,"Feb 21, 2026",CUS-0684,Saanvi Singh,Consumer,Surat,Gujarat,West,office-supplies,Supplies,Scissors Pack,3.0,302.0,0.1,₹815.40,130.29
+ORD-104548,2026-02-14,CUS-0315,Aditya Das,Home Office,Pune,Maharashtra,West,Technology,Accessories,Mechanical Keyboard,4.0,4279.0,0.15,"₹14,548.60",3315.96
+ORD-104632,2026-02-07,CUS-0644,Diya Verma,Corporate,Chandigarh,Chandigarh, N,office-supplies,Supplies,Scissors Pack,9.0,311.0,0.0,2799.0,685.7
+ORD-104638,2026-02-17,CUS-0097,Nikhil Bose,Consumer,Surat,Gujarat,West,Office supplies,Storage,File Cabinet,2.0,7294.0,0.0,"₹14,588.00",2806.83
+ORD-104608,2026-02-01,CUS-0034,Akash Chauhan,Corporate,Indore,Madhya Pradesh,West,Office Supplies,Binders,Presentation Folder,11.0,277.0,0.05,2894.65,1088.32
+ORD-104525,2026-02-27,CUS-0319,Amit Sharma,consumer,New Delhi,Delhi,North,Furniture,Furnishings,Photo Frame Set,2.0,683.0,0.05,1297.7,465.28
+ORD-104600,"Feb 10, 2026",CUS-0014,Saanvi Singh,Corporate,Kochi,Kerala,South,Office supplies,Supplies,Scissors Pack,7.0,299.0,0.0,2093.0,487.98
+ORD-104604,05/02/2026,CUS-0115,Priya Gupta,Home Office,New Delhi,Delhi,North,Furniture,Chairs,Mesh Task Chair,3.0,5201.0,0.0,15603.0,4547.31
+ ORD-104597 ,2026-02-13,CUS-0747,Ishaan Kapoor,Consumer,Surat,Gujarat,West,furniture,Chairs,Visitor Chair,4.0,3226.0,0.0,12904.0,3993.0
+ORD-104524,2026-02-23,CUS-0296,Nisha Das,Consumer,guwahati,Assam,East,OfficeSupplies,Paper,Sticky Notes Pack,1.0,156.0,20%,124.8,44.59
+ORD-104594,2026-02-03,CUS-0227,Aditya Shah,Consumer,Chandigarh,Chandigarh,North,Office supplies,Binders,Ring Binder Set,4.0,442.0,0%,,723.23
+ORD-104623,2026-02-19,CUS-0519,Aadhya Joshi,Corporate,  New Delhi ,Delhi,North,Office supplies,Art,Marker Set,4.0,384.0,0%,"₹1,536.00",591.31
+ORD-104625,2026-02-15,CUS-0717,Krishna Mehta,Consumer,Mumbai,Maharashtra,,Furniture,Furnishings,Wall Clock,7.0,898.0,0.0,6286.0,2875.96
+ORD-104555,01/02/2026,CUS-0657,Ishaan Jain,Consumer,PATNA,Bihar,East,Furniture,Furnishings,Desk Lamp,4.0,1917.0,0.15,6517.8,1950.68
+ORD-104547,2026-02-27,CUS-0477,Arjun Shah,Consumer,Ahmedabad,Gujarat,West,office-supplies,Binders,Ring Binder Set,6.0,455.0,0.05,2593.5,1065.32
+ORD-104576,2026-02-15,CUS-0445,,Home Office,Chandigarh,Chandigarh,NORTH ,Office Supplies,Art,Colour Pencil Kit,4.0,563.0,0.15,1914.2,593.42
+ORD-104522,2026-02-08,CUS-0073,Reyansh Nair,Corporate,Guwahati,Assam,East,Office Supplies,Paper,Sticky Notes Pack,10.0,146.0,0.45,₹803.00,70.27
+ORD-104634,15/02/2026,CUS-0229,Amit Kulkarni,Consumer,Kochi,Kerala,South,OfficeSupplies,Supplies,Scissors Pack,8.0,292.0,5%,2219.2,469.75
+ORD-104643,15/02/2026,CUS-0529,Anjali Kapoor,Corporate,HYDERABAD,Telangana,South,Office Supplies,Envelopes,Envelope Pack,5.0,208.0,0.0,"₹1,040.00",514.42
+ORD-104529,03/02/2026,CUS-0059,Anjali Joshi,Corporate,Jaipur,Rajasthan,North,Technology,Machines,Laser Printer,2.0,16141.0,0.0,"₹32,282.00",6889.0
+ORD-104562,13/02/2026,CUS-0245,Rohan Yadav,Corporate,Kochi,Kerala,south ,Office Supplies,Appliances,Electric Kettle,7.0,1875.0,0.1,"₹11,812.50",2419.67
+ORD-104558,2026-02-06,CUS-0691,Vivaan Reddy,Consumer,Jaipur,Rajasthan,North,OfficeSupplies,Fasteners,Heavy Duty Stapler,3.0,601.0,0.1,"₹1,622.70",467.6
+ORD-104531,2026-02-21,CUS-0031,Diya Iyer,Consumer,Coimbatore,Tamil Nadu,South,Technology,Accessories,Wireless Mouse,2.0,873.0,0.1,"₹1,571.40",577.07
+ORD-104637,2026-02-22,CUS-0246,Amit Mehta,Corporate,Kolkata,West Bengal,East,Office Supplies,Storage,Storage Box,5.0,1076.0,0.4,"₹3,228.00",-632.42
+ORD-104588,"Feb 22, 2026",CUS-0003,Pooja Iyer,Consumer,KOLKATA,West Bengal,East,Furniture,Furnishings,Wall Clock,-6.0,957.0,0.0,5742.0,
+ORD-104563,2026-02-24,CUS-0710,Harsh Bose,Consumer,Mumbai,Maharashtra,WEST,Office supplies,Paper,A4 Paper Ream,6.0,302.0,5%,1721.4,870.38
+ORD-104534,2026-02-21,CUS-0088,Shreya Jain,Corporate,Ahmedabad,Gujarat,WEST,office-supplies,Art,Marker Set,5.0,386.0,0%,,772.81
+ORD-104560,2026-02-17,CUS-0073,Reyansh Nair,Corporate,GUWAHATI,Assam,East,Furniture,Furnishings,Curtain Pair,4.0,1618.0,0%,"₹6,472.00",2517.17
+ORD-104577,"Feb 26, 2026",CUS-0649,Varun Rao,corporate,Hyderabad,Telangana,South,furniture,Furnishings,Photo Frame Set,,680.0,15%,3468.0,1350.31
+ORD-104580,2026-02-06,CUS-0691,Vivaan Reddy,Consumer,Jaipur,Rajasthan,North,Office Supplies,Supplies,Scissors Pack,6.0,296.0,20%,"₹1,420.80",124.14
+ORD-104549,2026-02-10,CUS-0628,Divya Kapoor,Consumer,Lucknow,Uttar Pradesh,North,Office Supplies,Appliances,Paper Shredder,1.0,6925.0,5%,6578.75,1487.77
+ORD-104533,10/02/2026,CUS-0546,Aditya Bose,Consumer,Mumbai,Maharashtra,West,Office Supplies,Binders,Presentation Folder,6.0,288.0,0.0,"₹1,728.00",730.41
+ORD-104528,2026-02-25,CUS-0664,Ishita Yadav,Consumer,Kota,Rajasthan,NORTH ,Furniture,Chairs,Mesh Task Chair,2.0,5227.0,10%,9408.6,2350.34
+ORD-104585,2026-02-05,CUS-0309,Akash Kulkarni,Consumer,Chandigarh,Chandigarh,North,Technology,Accessories,Bluetooth Headphones,1.0,3616.0,0.15,3073.6,786.48
+ORD-104579,2026-02-20,CUS-0385,Sai Jain,Consumer,Surat,Gujarat,WEST,Furniture,Furnishings,Curtain Pair,1.0,1626.0,0.0,1626.0,682.53
+ORD-104596,2026-02-07,CUS-0501,Tanvi Gupta,Home Office,Bengaluru,Karnataka,S,technology ,Accessories,Mechanical Keyboard,2.0,4154.0,0.0,8308.0,3136.06
+ORD-104544,24/02/2026,CUS-0281,Nisha Rao,Consumer,Kota,Rajasthan,NORTH ,Technology,Accessories,USB Hub,1.0,1098.0,0.0,1098.0,476.96
+ORD-104617,2026-02-07,CUS-0381,Aarav Jain,Consumer,Pune,Maharashtra,WEST,Office Supplies,Appliances,Electric Kettle,1.0,1979.0,15%,"₹1,682.15",274.95
+ORD-104550,14/02/2026,CUS-0300,Deepak Iyer,Corporate,Coimbatore,Tamil Nadu,,Office Supplies,Binders,Ring Binder Set,5.0,464.0,0%,2320.0,982.89
+ORD-104642,2026-02-08,CUS-0451,Aarav Rao,Home Office,Kota,Rajasthan,north,Furniture,Furnishings,Photo Frame Set,6.0,688.0,0.1,"₹3,715.20",1393.16
+ORD-104581,02/02/2026,CUS-0576,Nisha Kapoor,Corporate,Mumbai,Maharashtra,West,Technology,Accessories,USB Hub,,1215.0,0.2,"₹2,916.00",708.65
+ORD-104605,2026-02-25,CUS-0732,Akash Verma,Corporate,Agra,Uttar Pradesh,North,Office Supplies,Supplies,Scissors Pack,5.0,303.0,0.0,1515.0,371.59
+ORD-104553,2026-02-18,CUS-0664,Ishita Yadav,Consumer,Kota,Rajasthan,North,Technology,Accessories,HD Webcam,3.0,2442.0,0.0,7326.0,2579.18
+ ORD-104598 ,"Feb 18, 2026",CUS-0078,Krishna Reddy,Home Office,KOCHI,Kerala,South,Office Supplies,Appliances,Electric Kettle,4.0,1989.0,0.2,6364.8,750.49
+ORD-104590,2026-02-01,CUS-0371,Rohan Agarwal,Consumer,Coimbatore,Tamil Nadu,South,furniture,Bookcases,Corner Bookshelf,1.0,6215.0,0%,"₹6,215.00",1339.71
+ORD-104541,2026-02-07,CUS-0572,Rohan Shah,consumer,Hyderabad,Telangana,South,Furniture,Furnishings,Photo Frame Set,6.0,714.0,0.05,4069.8,1536.75
+ORD-104595,2026-02-16,CUS-0519,Aadhya Joshi,Corporate,NEW DELHI,Delhi,north,Office Supplies,Binders,Presentation Folder,3.0,284.0,5%,₹809.40,336.78
+ORD-104556,19/02/2026,CUS-0585,Arjun Jain,Corporate,Kolkata,West Bengal,East,Furniture,Chairs,Ergonomic Office Chair,1.0,8582.0,30%,6007.4,0.0
+ORD-104543,02/02/2026,CUS-0515,Arjun Rao,Consumer,Ahmedabad,Gujarat,West,Office supplies,Art,Colour Pencil Kit,6.0,548.0,0.0,3288.0,1563.68
+ORD-104593,"Feb 18, 2026",CUS-0656,Rahul Nair,Home Office,Ahmedabad,Gujarat,West,furniture,Furnishings,Wall Clock,6.0,964.0,0.0,"₹5,784.00",1995.4
+ORD-104614,"Feb 03, 2026",CUS-0750,Priya Agarwal,Consumer,Bengaluru,Karnataka,South,Office Supplies,Paper,Sticky Notes Pack,4.0,151.0,0.1,543.6,225.67
+ORD-104600,"Feb 10, 2026",CUS-0014,Saanvi Singh,Corporate,Kochi,Kerala,South,Office supplies,Supplies,Scissors Pack,7.0,299.0,0.0,2093.0,487.98
+ORD-104569,2026-02-18,CUS-0539,,Corporate,New Delhi,Delhi,North,office-supplies,Storage,Storage Box,3.0,1159.0,0.2,2781.6,290.75
+ORD-104559,12/02/2026,CUS-0325,Harsh Kapoor,Corporate,Bengaluru,Karnataka,South,Furniture,Furnishings,Cushion Set,3.0,1239.0,0.1,"₹3,345.30",1380.17
+,,,,,,,,,,,,,,,
