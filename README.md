@@ -8,8 +8,7 @@ All three tasks use the same retail sales dataset, so together they tell one end
 |---|---------|-------|--------|
 | 1 | [Sales & Revenue Analysis Dashboard](Task1-Sales-Dashboard) | Excel | ✅ Done |
 | 2 | [Customer Segmentation (RFM + K-Means)](Task2-Customer-Segmentation) | Python, pandas, scikit-learn, seaborn | ✅ Done |
-| 3 | Predictive Analytics – Sales Forecasting | Python, statsmodels | 🔄 In progress |
-
+| 3 | [Predictive Analytics – Sales Forecasting](Task3-Sales-Forecasting) | Python, scikit-learn, SciPy | ✅ Done |
 ## Dataset
 `retail_sales_data.csv` has **5,947 order lines** from **662 customers**, covering Jan 2023 – Oct 2026 (16 columns: order, customer, segment, city/state/region, category, sub-category, product, quantity, unit price, discount, sales, profit).
 It is a synthetic dataset modelled on the classic *Superstore* structure and adapted to Indian regions, with realistic growth, festive seasonality and discount effects.
@@ -86,6 +85,24 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 Clone the repo and open the notebooks from inside their task folders. They read `../retail_sales_data.csv`.
 
 ---
+## Task 3 – Predictive Analytics: Sales Forecasting
 
+Forecasts monthly sales for the next 12 months to support inventory and campaign planning.
+📓 **[Open the notebook](Task3-Sales-Forecasting/Sales_Forecasting.ipynb)**
+
+**Approach**
+- Aggregated orders into a monthly time series and checked it for gaps and outliers
+- Explored trend and seasonality: Oct–Nov run ~40% above an average month; Feb and May are the weakest
+- Time-based train/test split (last 12 months held out) to compare three models:
+
+| Model | MAPE |
+|---|---|
+| Seasonal Naive (baseline) | 21.8% |
+| **Linear Regression** (trend + month dummies) | **13.4%** ✅ |
+| Holt-Winters Exponential Smoothing | 13.9% |
+
+**Forecast (Nov 2026 – Oct 2027):** **₹1.27 Cr (+7.6%)**, peaking in Oct–Nov. Technology is expected to grow fastest (+9.3%).
+
+**Recommendations:** build inventory by September for the festive peak, run promotions in slow months (Feb, May), and retrain the model monthly.
 ## Author
 **Aditya Chauhan** – B.Tech CSE, IIIT Kota
